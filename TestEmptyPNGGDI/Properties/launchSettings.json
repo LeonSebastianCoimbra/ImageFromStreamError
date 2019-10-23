@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TestEmptyPNGGDI": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

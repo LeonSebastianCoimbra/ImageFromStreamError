@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  testemptypnggdi:
+    image: ${DOCKER_REGISTRY-}testemptypnggdi
+    build:
+      context: .
+      dockerfile: TestEmptyPNGGDI/Dockerfile
+    volumes:
+      - ./TestEmptyPNGGDI/Test/:/mnt/share
